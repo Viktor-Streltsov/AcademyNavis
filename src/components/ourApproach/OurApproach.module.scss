@@ -1,0 +1,84 @@
+.contentDerections {
+  margin: 30px 0;
+}
+
+.blockList {
+  margin: 147px 0 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blockHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 21px;
+}
+
+.line {
+  width: 9px;
+  height: 130px;
+  border-radius: 24px;
+  background: #FFFFFF;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: #fff;
+}
+
+.text {
+  width: 972px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  color: #fff;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blockText, .blockImages {
+  width: 466px;
+  height: 600px;
+  padding: 60px 40px 60px 40px;
+  border: 1px solid #C9C9C9
+}
+
+.blockServis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameList {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #fff;
+}
+
+.textList {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.6px;
+  color: #fff;
+}

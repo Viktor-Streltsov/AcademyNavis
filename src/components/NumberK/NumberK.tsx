@@ -6,7 +6,7 @@ const NumberK = () => {
 	return (
 		<>
 			{dataK.map(elem => (
-				<div className={styles.blockInfo}>
+				<div key={elem.id} className={styles.blockInfo}>
 					<p className={styles.num}>{elem.num}</p>
 					<p className={styles.title}>{elem.title}</p>
 				</div>

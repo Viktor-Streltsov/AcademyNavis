@@ -11,7 +11,7 @@ import ArrowRight from "@/app/icons/ArrowRight";
 export const navItems = [
 	{ label: 'О нас', href: '/' },
 	{ label: 'Наши услуги', href: '/' },
-	{ label: 'Наш подход', href: '/' },
+	{ label: 'Наш подход', href: '/approach' },
 	{ label: 'Заявки', href: '/' }
 ]
 
