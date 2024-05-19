@@ -6,13 +6,13 @@ import Logo from '../icons/Logo'
 import { signOut, useSession } from 'next-auth/react'
 import React from 'react'
 import styles from './TheHeader.module.scss'
+import ArrowRight from "@/app/icons/ArrowRight";
 
 export const navItems = [
-	{ label: 'Университет', href: '/university' },
-	{ label: 'Направления', href: '/directions' },
-	{ label: 'Сообщества', href: '/communities' },
-	{ label: 'Новости', href: '/news' },
-	{ label: 'О нас', href: '/about' }
+	{ label: 'О нас', href: '/' },
+	{ label: 'Наши услуги', href: '/' },
+	{ label: 'Наш подход', href: '/' },
+	{ label: 'Заявки', href: '/' }
 ]
 
 
@@ -32,7 +32,7 @@ const TheHeader = () => {
 									onClick={() => signOut({ callbackUrl: '/' })}>Выйти</Link>
 						:
 						<>
-							<Link className={styles.login} href='/signin'>Войти</Link>
+							<Link className={styles.login} href='/signin'>Войти <ArrowRight/></Link>
 						</>
 				}
 			</div>

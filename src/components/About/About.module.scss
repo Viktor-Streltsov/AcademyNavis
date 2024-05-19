@@ -1,45 +1,36 @@
-@import "../../app/styles/mixin";
-
-.conteinerJoin {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 87px;
+.blockVideo {
+  width: 508px;
+  height: 363px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.infoJoin {
-  width: 550px;
+.blockInfo {
+  width: 381px;
+  height: 307px;
   display: flex;
   flex-direction: column;
   row-gap: 35px;
 }
 
-.Line {
+.line {
   width: 94px;
   height: 7px;
   background: #E74040;
 }
 
-.nameHeader {
-  width: 381px;
-  height: 100px;
+.nameAbout {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
   color: #fff;
-
-  @include tablet {
-    font-size: 34px;
-    line-height: 54px;
-  }
 }
 
 .text {
-  width: 381px;
-  height: 80px;
+  width: 308px;
+  height: 180px;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;

@@ -1,0 +1,59 @@
+.wrapperAplication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameAp {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.20000000298023224px;
+  color: #fff;
+}
+
+.textAp {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  color: #fff;
+}
+
+.formAp {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.input {
+  width: 688px;
+  height: 58px;
+  padding: 15px 591px 15px 20px;
+  border-radius: 5px;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6
+}
+
+.submit {
+  width: 117px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 0 5px 5px 0;
+  opacity: 0px;
+  background: #8D5CF6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  position: absolute;
+  right: 0;
+}

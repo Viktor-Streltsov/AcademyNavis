@@ -1,0 +1,100 @@
+@import "../../app/styles/mixin";
+
+.People {
+  height: 100%;
+  padding: 58px 40px 28px;
+}
+
+.headerPeople {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.20000000298023224px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.infoPeople {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 38px;
+}
+
+.blocksPeople {
+  width: 512px;
+  height: 418px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.imageContainer1  {
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  background-image: url("./icons/user1.png");
+  background-size: cover;
+}
+
+.imageContainer2  {
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  background-image: url("./icons/user2.png");
+  background-size: cover;
+}
+
+.namePeople {
+  width: 320px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  color: #737373;
+}
+
+.textPeople {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+.textWork {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+}
+
+.btnRating {
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  border: 1px solid #E5B300;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #E5B300;
+}

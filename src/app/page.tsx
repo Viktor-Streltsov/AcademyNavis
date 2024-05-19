@@ -1,36 +1,43 @@
 import React from 'react'
-import TheCreate from '@/components/theCreate/TheCreate'
-import TheTextInfo from '@/components/theTextInfo/TheTextInfo'
-import TheSearchInfo from '@/components/theSearchInfo/TheSearchInfo'
-import TheRating from '@/components/theRating/TheRating'
-import styles from './styles/Home/Home.module.scss'
-import ThePopularity from '@/components/thePopularity/ThePopularity'
+import Welcome from '@/components/Welcome/Welcome'
+import NumberK from '@/components/NumberK/NumberK'
+import About from '@/components/About/About'
+import Services from '@/components/Services/Services'
+import AnApproach from '@/components/AnApproach/AnApproach'
 import TheJoinUs from '@/components/theJoinUs/TheJoinUs'
 import Layout from "@/components/layout/Layout";
+import styles from './styles/Home/Home.module.scss'
+import People from "@/components/People/People";
+import Aplication from "@/components/Aplication/Aplication";
 
 const Home = () => {
 	return (
 		<>
 			<Layout>
-			<section className={styles.wrapperCreate}>
-				<TheCreate />
+				<section className={styles.wrapperWelcome}>
+					<Welcome/>
 			</section>
-			<section className={styles.wrapperTextInfo}>
-				<TheTextInfo />
+				<section className={styles.NumberK}>
+					<NumberK/>
 			</section>
-			<section className={styles.wrapperSearchInfo}>
-				<TheSearchInfo />
+				<section className={styles.wrapperAbout}>
+					<About/>
 			</section>
-			<section className={styles.wrapperRating}>
-				<TheRating />
+				<section className={styles.wrapperServices}>
+					<Services/>
 			</section>
-			<section className={styles.wrapperPopularity}>
-				<ThePopularity />
+				<section className={styles.wrapperAnApproach}>
+					<AnApproach/>
 			</section>
-			<div className={styles.line}></div>
 			<section className={styles.wrapperJoinUs}>
 				<TheJoinUs />
 			</section>
+				<section className={styles.wrapperPeople}>
+					<People/>
+				</section>
+				<section className={styles.Aplication}>
+					<Aplication />
+				</section>
 			</Layout>
 		</>
 	)

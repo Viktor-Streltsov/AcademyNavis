@@ -1,0 +1,78 @@
+@import "../../app/styles/mixin";
+
+.nameHeader {
+  text-align: center;
+  font-size: 58px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 14px;
+
+  @include tablet {
+    font-size: 34px;
+    line-height: 54px;
+  }
+}
+
+.infoWelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+
+.hello {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: #8D5CF6;
+}
+
+.nameHeader {
+  width: 621px;
+  height: 240px;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.textFuture {
+  width: 525px;
+  height: 90px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  color: #fff;
+}
+
+.btnNow, .btnMore {
+  width: 193px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  background: #8D5CF6;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #fff;
+}
+
+.btnBlock {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.btnMore {
+  background: #26335D;
+  border: 1px solid #8D5CF6;
+  color: #8D5CF6;
+}

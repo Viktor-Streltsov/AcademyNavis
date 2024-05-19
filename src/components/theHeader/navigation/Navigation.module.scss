@@ -1,16 +1,12 @@
 .textLink {
-  color: #36384E;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #fff;
 
   &:hover {
-    color: #AE1919;
-    border-bottom: 2px solid red;
+    color: #8D5CF6;
   }
-}
-
-.active {
-  color: #AE1919;
-  border-bottom: 2px solid red;
 }
